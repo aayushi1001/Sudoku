@@ -97,7 +97,7 @@ class App extends Component {
         <h3>Here's Your Sudoku Challenge!!</h3>
       </header>
       <SudokuBoard sudoku={this.state.sudoku} onChange={this.handleChange} />
-      <button onClick = {this.solveSudoku}>Can't Solve? Get the ans.</button>
+      <button className = "ans" onClick = {this.solveSudoku}>Can't Solve? Get the ans.</button>
     </div>
     )
   }

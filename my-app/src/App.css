@@ -26,6 +26,14 @@
   margin-bottom: 2rem;
 }
 
+.ans{
+  margin-top: 1rem;
+  padding: 1vh;
+  background-color: rgb(236, 132, 71);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 .App-link {
   color: #61dafb;
 }
